@@ -23,11 +23,21 @@ body {
     padding: 0;
     border-radius: 8px;
     background-color: rgb(24, 34, 66);
-
+    overflow: hidden;
 }
 
 .default {
     font-weight: bold;
+    margin: 0;
+    color: white;
+    text-decoration: none;
+    list-style-type:none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.2vw;
+    height: 20%;
+    overflow: hidden;
 }
 
 .entry {
@@ -36,10 +46,28 @@ body {
     list-style-type:none;
     display: flex;
     justify-content: space-between;
-    margin: 26px;
-    font-size: 23px;
+    font-size: 1.2vw;
+    height: 10%;
+    margin: 26px 0px 0px 0px;
+    overflow: hidden;
+}
+
+.spacer {
+    list-style-type:none;
+    margin: 0px;
+    background-color: rgb(33, 46, 88);
+    height: 1%;
+}
+
+.tspacer {
+    list-style-type:none;
+    margin: 0px;
+    background-color: rgb(33, 46, 88);
+    height: 100%;
+    width: 0.5%;
 }
 
 .entry span {
-    margin: 0;
+    width: 33.33%;
+    text-align: center;
 }
